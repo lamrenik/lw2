@@ -3,9 +3,8 @@ namespace Pavel\Lw2;
 
 class Pizza
 {
-    private string $name;
-    private string $sauce;
-
+    private string $name = '';
+    private string $sauce = '';
     private array $toppings = [];
 
 
